@@ -3,44 +3,331 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Biographys</title>
   </head>
   <body>
-    <header>
-      <div>
-        <h1>Biography</h1>
+    <header class="header-nav">
+      <div class="jumbotron">
+        <h1>WELCOME TO MY PORTOFOLIO</h1>
+        <h2>Nama Saya anam sadat</h2>
       </div>
+
       <nav class="navbar">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Report</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
-      <div class="content">
-        <article>
-          <h2>Lorem ipsum dolor sit amet.</h2>
+      <div id="content">
+        <article id="about" class="card">
+          <h2>About</h2>
+          <img
+            src="./assets/images/produktif.jpg"
+            alt="produktif"
+            width="200"
+          />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maiores
-            unde voluptatum expedita repellendus incidunt modi voluptate
-            mollitia sint facere deserunt, magni inventore quam explicabo a
-            veniam earum. Debitis suscipit iste, nihil maxime quae qui adipisci
-            quibusdam facere rerum hic natus, nam quidem nemo repellat a
-            doloribus ut laudantium dolores veritatis, distinctio modi quod
-            laborum? Ratione fugiat officia sunt doloribus iusto, similique
-            delectus, et quisquam, voluptatum facere qui quia. Modi, ducimus
-            saepe? Culpa nulla consequuntur quod neque. Consectetur magnam
-            labore cum maxime velit vel natus aliquid voluptatum repellendus,
-            modi provident assumenda totam sint quia! Ducimus molestiae quisquam
-            omnis magni nulla.
+            Hello! I’m Anam, a technology enthusiast with a strong interest in
+            Cloud Computing, Web Development, and Machine Learning. With a
+            background in Informatics Engineering, I constantly explore how
+            technology can be leveraged to create innovative solutions with
+            real-world impact.I have worked on various projects, ranging from
+            data analysis and web development to cloud-based service
+            integrations. Currently, I’m deepening my expertise in the Google
+            Cloud ecosystem and developing projects focused on digital solutions
+            for healthcare, education, and tourism.Additionally, I actively
+            participate in tech communities and continuously strive to enhance
+            my skills. I believe that great technology is not just about writing
+            code, but also about how it benefits people.
           </p>
         </article>
+
+        <article id="experience" class="card">
+          <h2>Experience</h2>
+          <p>
+            I have gained extensive experience in the tech industry, taking on
+            roles such as Project Manager, IT Consultant, and various other
+            strategic and technical positions. Each project I’ve worked on has
+            not only enhanced my skills in managing systems and teams but has
+            also given me deeper insights into how technology can be effectively
+            implemented to solve real-world challenges.
+          </p>
+          <section class="dbs-foundation">
+            <h3>dbs foundation</h3>
+            <p>
+              I had the opportunity to be involved in digital transformation
+              projects within the financial sector, assisting in optimizing the
+              bank's IT systems. My role included designing IT strategies aimed
+              at improving operational efficiency while strengthening data
+              security and the technology infrastructure used in financial
+              services.
+            </p>
+            <button><a href="">visit</a></button>
+          </section>
+
+          <section class="dicoding">
+            <h3>dicoding</h3>
+            <p>
+              I actively contributed to various technology development programs,
+              where I deepened my understanding of the software development
+              ecosystem and helped foster a community focused on enhancing
+              digital skills. Through hands-on projects and training, I gained
+              valuable experience in innovation and collaboration within the
+              tech space.
+            </p>
+            <button><a href="">visit</a></button>
+          </section>
+
+          <section class="microsoft">
+            <h3>microsoft</h3>
+            <p>
+              My experience at Microsoft allowed me to further explore cloud
+              computing, software development, and scalable digital solutions. I
+              participated in various innovation programs that provided deeper
+              insights into emerging technology trends and how they can be
+              applied globally to create meaningful impact.
+            </p>
+            <button><a href="">visit</a></button>
+          </section>
+        </article>
+
+        <article id="skills" class="card">
+          <h2>Skills</h2>
+          <section class="software">
+            <h3>Software & Web Development</h3>
+            <p>
+              I have extensive experience in software and web application
+              development, focusing on building efficient, scalable, and
+              user-friendly systems. I have worked on various projects using
+              modern technologies that support the development of
+              high-performance applications.
+            </p>
+            <section class="javascript">
+              <h4>JavaScript & TypeScript</h4>
+              <p>
+                JavaScript is my primary language for web development, both
+                front-end and back-end. I am also proficient in TypeScript,
+                which enhances code structure with static typing, helping to
+                reduce bugs and improve code readability and scalability for
+                complex projects. With TypeScript, I can develop applications
+                that are more reliable and maintainable, particularly in
+                enterprise-scale applications.
+              </p>
+            </section>
+
+            <section class="react">
+              <h4>React.js</h4>
+              <p>
+                I have experience in building interactive and dynamic user
+                interfaces using React.js. By utilizing a component-based
+                architecture, I can develop modular and maintainable UI
+                components. I am also familiar with state management tools such
+                as Redux and Context API to efficiently handle application
+                state. Additionally, I have optimized React applications using
+                lazy loading, memoization, and code splitting to ensure they
+                remain lightweight and fast.
+              </p>
+            </section>
+
+            <section class="express">
+              <h4>Express.js</h4>
+              <p>
+                For backend development, I frequently use Express.js, a
+                lightweight Node.js framework that enables me to build fast and
+                scalable APIs. I have developed various RESTful APIs capable of
+                handling user authentication, data manipulation, and database
+                integration. With experience in middleware and asynchronous
+                operations, I ensure smooth and responsive communication between
+                the client and the server.
+              </p>
+            </section>
+          </section>
+
+          <section class="cloud">
+            <h3>Cloud Computing & Infrastructure</h3>
+            <p>
+              I have expertise in managing cloud infrastructure, optimizing
+              cloud-based system performance, and implementing cloud solutions
+              using Google Cloud Platform (GCP) to meet business and technology
+              needs.
+            </p>
+            <section class="cloud-deployment">
+              <h4>Cloud Deployment & Optimization</h4>
+              <p>
+                I have experience in deploying, monitoring, and optimizing
+                cloud-based applications to ensure they can handle high traffic
+                loads while maintaining performance. I am familiar with cloud
+                services such as Compute Engine, Cloud Functions, Cloud Run, and
+                Kubernetes Engine, which allow me to develop reliable, scalable,
+                and cost-efficient systems.
+              </p>
+            </section>
+
+            <section class="infrastructure">
+              <h4>Infrastructure Management</h4>
+              <p>
+                I am skilled in cloud infrastructure management, including
+                network configuration, load balancing, and security hardening. I
+                understand how to design systems that are highly available and
+                fault-tolerant, as well as optimize resource usage for
+                efficiency. Additionally, I have experience using Terraform and
+                Infrastructure as Code (IaC) to manage cloud resources in a
+                structured and automated way.
+              </p>
+            </section>
+          </section>
+
+          <section class="project-it">
+            <h3>Project & IT Strategy</h3>
+            <p>
+              Beyond technical skills, I also have experience in project
+              management and IT strategy, enabling me to lead technology
+              development with a structured and efficient approach. I have
+              worked on various projects, from planning and execution to
+              optimization and security, ensuring that technology solutions
+              align with business objectives and deliver value to stakeholders.
+            </p>
+            <section class="project-management">
+              <h4>Project Management</h4>
+              <p>
+                I have experience leading software development projects, from
+                planning and team coordination to execution. I am familiar with
+                Agile and Scrum methodologies, ensuring projects run on schedule
+                and adapt to changing business requirements.
+              </p>
+            </section>
+
+            <section class="it-consulting">
+              <h4>IT Consulting & Digital Transformation</h4>
+              <p>
+                I have worked on various digital transformation projects,
+                assisting companies in adopting modern technologies to improve
+                efficiency and business competitiveness. With experience at DBS
+                Bank and Microsoft, I understand how to design technology
+                strategies aligned with industry needs.
+              </p>
+            </section>
+
+            <section class="system-optimization">
+              <h4>System Optimization & Security</h4>
+              <p>
+                I have a strong understanding of system optimization and IT
+                security, including data encryption, access control, and best
+                practices for secure application development. I believe security
+                should be integrated from the start of the development process
+                to minimize risks and ensure long-term system reliability.
+              </p>
+            </section>
+          </section>
+
+          <section class="database">
+            <h3>Data & Database Management</h3>
+            <p>
+              In the field of database management and data processing, I have
+              experience handling large-scale database systems with high
+              efficiency, both for data analysis and application operational
+              needs.
+            </p>
+            <section class="oracle">
+              <h4>Oracle Database</h4>
+              <p>
+                I have experience managing Oracle databases, including query
+                optimization, indexing, and transaction management to ensure
+                optimal performance. I understand scalable database architecture
+                and how to implement secure and structured systems to handle
+                large volumes of data.
+              </p>
+            </section>
+
+            <sectio class="sql">
+              <h4>SQL & Data Querying</h4>
+              <p>
+                I am proficient in SQL for managing, extracting, and analyzing
+                data, both for business insights and application optimization. I
+                also understand concepts such as normalization and
+                denormalization, and how to design databases that are efficient
+                and easy to maintain.
+              </p>
+            </sectio>
+
+            <section class="data-analysis">
+              <h4>Data Analysis & Insights</h4>
+              <p>
+                With a strong understanding of data structures and query
+                optimization, I can perform in-depth data analysis, identify
+                trends, and provide insights that support better
+                decision-making.
+              </p>
+            </section>
+          </section>
+        </article>
       </div>
+
+      <aside class="aside">
+        <header>
+          <h3>Biographys</h3>
+        </header>
+
+        <article>
+          <header>
+            <p>Short Biographys</p>
+            <figure>
+              <img src="./assets/images/ANAM.jpg" alt="Anam" width="200" />
+              <figcaption>Anam Sadat</figcaption>
+            </figure>
+          </header>
+
+          <section>
+            <table>
+              <tr>
+                <th>Nama</th>
+                <td>Anam Sadat</td>
+              </tr>
+              <tr>
+                <th>Alamat</th>
+                <td>Jakarta, Indonesia</td>
+              </tr>
+              <tr>
+                <th>Status</th>
+                <td>IT Consultant & Software Engineer</td>
+              </tr>
+              <tr>
+                <th>Pengalaman</th>
+                <td>Dicoding, DBS Bank, Microsoft</td>
+              </tr>
+              <tr>
+                <th>Keahlian</th>
+                <td>JavaScript, TypeScript, React.js, Express.js, Oracle</td>
+              </tr>
+              <tr>
+                <th>Moto</th>
+                <td>"Terus belajar dan berinovasi."</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
     </main>
-    <footer></footer>
+
+    <footer>
+      <p>Copyright © Anam Sadat</p>
+      <p id="contact">
+        Contact me :
+        <a class="wa" href="https://wa.me/62895343428566?">+62895343428566</a>
+      </p>
+    </footer>
+    <script src="./assets/javascript/script.js"></script>
   </body>
 </html>
