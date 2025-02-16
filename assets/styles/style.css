@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-main {
-  overflow: auto;
-}
-
 body {
   font-family: "Nunito", sans-serif;
   margin: 0;
@@ -34,6 +30,7 @@ body {
   padding-inline: 10px;
   gap: 2rem;
   list-style: none;
+  margin-left: 20px;
 }
 
 .navbar li {
@@ -47,16 +44,7 @@ body {
 
 .card {
   background-color: #f4f4f4;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.aside {
-  background-color: #f4f4f4;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 2rem 3rem 2rem 3rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -78,4 +66,98 @@ footer a {
 
 footer a:hover {
   color: yellow;
+}
+
+.profile-image {
+  width: 100%;
+  max-height: 400px;
+  border-radius: 15px;
+}
+
+#content {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem 2rem;
+}
+
+.anam-image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.dbs-bank-image {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.microsoft-image {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.dicoding-image {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.javascript-image {
+  border-radius: 15px;
+  margin-right: 30px;
+}
+
+.caption {
+  margin-top: 20px;
+}
+
+.typescript-image {
+  margin-top: 20px;
+}
+
+.react-image {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.express-image {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.google-cloud-image {
+  width: 50%;
+  border-radius: 15px;
+  /* margin-bottom: 20px; */
+}
+
+.oracle-image {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+main {
+  overflow: auto;
+  display: flex;
+  padding: 30px;
+  gap: 2rem;
+}
+
+aside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-height: 40rem;
 }
