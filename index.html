@@ -15,15 +15,15 @@
   <body>
     <header class="header-nav">
       <div class="jumbotron">
-        <h1>WELCOME TO MY PORTOFOLIO</h1>
-        <h2>Nama Saya anam sadat</h2>
+        <h1>Welcome to My Portofolio</h1>
+        <h2>A Showcase of My Work & Skills</h2>
       </div>
 
       <nav class="navbar">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#skills">Skill</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -32,11 +32,12 @@
     <main>
       <div id="content">
         <article id="about" class="card">
-          <h2>About</h2>
+          <h1 class="font-size margin-top">About</h1>
           <img
             src="./assets/images/produktif.jpg"
             alt="produktif"
             width="200"
+            class="profile-image"
           />
           <p>
             Hello! I’m Anam, a technology enthusiast with a strong interest in
@@ -52,10 +53,24 @@
             my skills. I believe that great technology is not just about writing
             code, but also about how it benefits people.
           </p>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+              Contact Me &#9660;
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="https://wa.me/62895343428566?" target="_blank"
+                >Whats App</a
+              >
+              <a href="anamsadat3@gmail.com" target="_blank">Email</a>
+              <a href="https://www.linkedin.com/in/anamsadat" target="_blank"
+                >Linkedin</a
+              >
+            </div>
+          </div>
         </article>
 
         <article id="experience" class="card">
-          <h2>Experience</h2>
+          <h1 class="font-size margin-top">Experience</h1>
           <p>
             I have gained extensive experience in the tech industry, taking on
             roles such as Project Manager, IT Consultant, and various other
@@ -65,7 +80,16 @@
             implemented to solve real-world challenges.
           </p>
           <section class="dbs-foundation">
-            <h3>dbs foundation</h3>
+            <h3>DBS Foundation</h3>
+            <figure class="center">
+              <img
+                src="./assets/images/DBS_Bank.png"
+                alt="dbsbank"
+                width="200"
+                class="dbs-bank-image"
+              />
+              <figcaption>DBS Bank</figcaption>
+            </figure>
             <p>
               I had the opportunity to be involved in digital transformation
               projects within the financial sector, assisting in optimizing the
@@ -74,11 +98,19 @@
               security and the technology infrastructure used in financial
               services.
             </p>
-            <button><a href="">visit</a></button>
           </section>
 
           <section class="dicoding">
-            <h3>dicoding</h3>
+            <h3>Dicoding</h3>
+            <figure class="center">
+              <img
+                src="./assets/images/dicoding.png"
+                alt="dicoding"
+                width="200"
+                class="dicoding-image"
+              />
+              <figcaption>Dicoding Indonesia</figcaption>
+            </figure>
             <p>
               I actively contributed to various technology development programs,
               where I deepened my understanding of the software development
@@ -87,11 +119,19 @@
               valuable experience in innovation and collaboration within the
               tech space.
             </p>
-            <button><a href="">visit</a></button>
           </section>
 
           <section class="microsoft">
-            <h3>microsoft</h3>
+            <h3>Microsoft</h3>
+            <figure class="center">
+              <img
+                src="./assets/images/Microsoft_logo.png"
+                alt="microsoft"
+                width="200"
+                class="microsoft-image"
+              />
+              <figcaption>Microsoft</figcaption>
+            </figure>
             <p>
               My experience at Microsoft allowed me to further explore cloud
               computing, software development, and scalable digital solutions. I
@@ -99,12 +139,11 @@
               insights into emerging technology trends and how they can be
               applied globally to create meaningful impact.
             </p>
-            <button><a href="">visit</a></button>
           </section>
         </article>
 
         <article id="skills" class="card">
-          <h2>Skills</h2>
+          <h1 class="font-size margin-top">Skills</h1>
           <section class="software">
             <h3>Software & Web Development</h3>
             <p>
@@ -115,7 +154,22 @@
               high-performance applications.
             </p>
             <section class="javascript">
-              <h4>JavaScript & TypeScript</h4>
+              <h4>1. JavaScript & TypeScript</h4>
+              <figure class="center">
+                <img
+                  src="./assets/images/JavaScript-logo.png"
+                  alt="javascript"
+                  width="200"
+                  class="javascript-image"
+                />
+                <img
+                  src="./assets/images/Typescript_logo.png"
+                  alt="TypeScript"
+                  width="200"
+                  class="typescript-image"
+                />
+                <figcaption class="caption">JavaScript & TypeScript</figcaption>
+              </figure>
               <p>
                 JavaScript is my primary language for web development, both
                 front-end and back-end. I am also proficient in TypeScript,
@@ -128,7 +182,16 @@
             </section>
 
             <section class="react">
-              <h4>React.js</h4>
+              <h4>2. React.js</h4>
+              <figure class="center">
+                <img
+                  src="./assets/images/react-logo.png"
+                  alt="react"
+                  width="200"
+                  class="react-image"
+                />
+                <figcaption>React JS</figcaption>
+              </figure>
               <p>
                 I have experience in building interactive and dynamic user
                 interfaces using React.js. By utilizing a component-based
@@ -142,7 +205,16 @@
             </section>
 
             <section class="express">
-              <h4>Express.js</h4>
+              <h4>3. Express.js</h4>
+              <figure class="center">
+                <img
+                  src="./assets/images/express.png"
+                  alt="express"
+                  width="200"
+                  class="express-image"
+                />
+                <figcaption>Express JS</figcaption>
+              </figure>
               <p>
                 For backend development, I frequently use Express.js, a
                 lightweight Node.js framework that enables me to build fast and
@@ -157,6 +229,15 @@
 
           <section class="cloud">
             <h3>Cloud Computing & Infrastructure</h3>
+            <figure class="center">
+              <img
+                src="./assets/images/Google_Cloud_logo.png"
+                alt="google cloud"
+                width="200"
+                class="google-cloud-image"
+              />
+              <figcaption class="caption">Google Cloud</figcaption>
+            </figure>
             <p>
               I have expertise in managing cloud infrastructure, optimizing
               cloud-based system performance, and implementing cloud solutions
@@ -164,7 +245,7 @@
               needs.
             </p>
             <section class="cloud-deployment">
-              <h4>Cloud Deployment & Optimization</h4>
+              <h4>1. Cloud Deployment & Optimization</h4>
               <p>
                 I have experience in deploying, monitoring, and optimizing
                 cloud-based applications to ensure they can handle high traffic
@@ -176,7 +257,7 @@
             </section>
 
             <section class="infrastructure">
-              <h4>Infrastructure Management</h4>
+              <h4>2. Infrastructure Management</h4>
               <p>
                 I am skilled in cloud infrastructure management, including
                 network configuration, load balancing, and security hardening. I
@@ -200,7 +281,7 @@
               align with business objectives and deliver value to stakeholders.
             </p>
             <section class="project-management">
-              <h4>Project Management</h4>
+              <h4>1. Project Management</h4>
               <p>
                 I have experience leading software development projects, from
                 planning and team coordination to execution. I am familiar with
@@ -210,7 +291,7 @@
             </section>
 
             <section class="it-consulting">
-              <h4>IT Consulting & Digital Transformation</h4>
+              <h4>2. IT Consulting & Digital Transformation</h4>
               <p>
                 I have worked on various digital transformation projects,
                 assisting companies in adopting modern technologies to improve
@@ -221,7 +302,7 @@
             </section>
 
             <section class="system-optimization">
-              <h4>System Optimization & Security</h4>
+              <h4>3. System Optimization & Security</h4>
               <p>
                 I have a strong understanding of system optimization and IT
                 security, including data encryption, access control, and best
@@ -241,7 +322,16 @@
               needs.
             </p>
             <section class="oracle">
-              <h4>Oracle Database</h4>
+              <h4>1. Oracle Database</h4>
+              <figure class="center">
+                <img
+                  src="./assets/images/Oracle_logo.png"
+                  alt="oracle"
+                  width="200"
+                  class="oracle-image"
+                />
+                <figcaption>Oracle Database</figcaption>
+              </figure>
               <p>
                 I have experience managing Oracle databases, including query
                 optimization, indexing, and transaction management to ensure
@@ -252,7 +342,7 @@
             </section>
 
             <sectio class="sql">
-              <h4>SQL & Data Querying</h4>
+              <h4>2. SQL & Data Querying</h4>
               <p>
                 I am proficient in SQL for managing, extracting, and analyzing
                 data, both for business insights and application optimization. I
@@ -263,7 +353,7 @@
             </sectio>
 
             <section class="data-analysis">
-              <h4>Data Analysis & Insights</h4>
+              <h4>3. Data Analysis & Insights</h4>
               <p>
                 With a strong understanding of data structures and query
                 optimization, I can perform in-depth data analysis, identify
@@ -275,16 +365,20 @@
         </article>
       </div>
 
-      <aside class="aside">
+      <aside class="aside center">
         <header>
-          <h3>Biographys</h3>
+          <h3 class="font-size">Biography</h3>
+          <p>Short Biography</p>
         </header>
 
         <article>
           <header>
-            <p>Short Biographys</p>
             <figure>
-              <img src="./assets/images/ANAM.jpg" alt="Anam" width="200" />
+              <img
+                src="./assets/images/ANAM.jpg"
+                alt="Anam"
+                class="anam-image"
+              />
               <figcaption>Anam Sadat</figcaption>
             </figure>
           </header>
@@ -292,28 +386,30 @@
           <section>
             <table>
               <tr>
-                <th>Nama</th>
-                <td>Anam Sadat</td>
+                <th class="th left">Nama</th>
+                <td class="left">Anam Sadat</td>
               </tr>
               <tr>
-                <th>Alamat</th>
-                <td>Jakarta, Indonesia</td>
+                <th class="th left">Alamat</th>
+                <td class="left">Jakarta, Indonesia</td>
               </tr>
               <tr>
-                <th>Status</th>
-                <td>IT Consultant & Software Engineer</td>
+                <th class="th left">Status</th>
+                <td class="left">IT Consultant & Software Engineer</td>
               </tr>
               <tr>
-                <th>Pengalaman</th>
-                <td>Dicoding, DBS Bank, Microsoft</td>
+                <th class="th left">Pengalaman</th>
+                <td class="left">Dicoding, DBS Bank, Microsoft</td>
               </tr>
               <tr>
-                <th>Keahlian</th>
-                <td>JavaScript, TypeScript, React.js, Express.js, Oracle</td>
+                <th class="th left align">Keahlian</th>
+                <td class="left">
+                  JavaScript, TypeScript, React.js, Express.js, Oracle
+                </td>
               </tr>
               <tr>
-                <th>Moto</th>
-                <td>"Terus belajar dan berinovasi."</td>
+                <th class="th left">Moto</th>
+                <td class="left">"Terus belajar dan berinovasi."</td>
               </tr>
             </table>
           </section>
